@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T02:22:44.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KAKRA49aC4p4zBS0nLDm" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T02:35:35.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8lNmo6SUb8qU7KSn6XbF" version="15.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5178" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="5874" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -16,7 +16,7 @@
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-7" value="가장 큰 박스 찾기()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-4" vertex="1">
           <mxGeometry y="168" width="250" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BfTfpMbQ1nF5UIR1eAzd-12" target="BfTfpMbQ1nF5UIR1eAzd-5">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;endArrow=block;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BfTfpMbQ1nF5UIR1eAzd-12" target="BfTfpMbQ1nF5UIR1eAzd-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-12" value="가장 많은 흑색 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-15" value="동서남북 1 탐색()&#xa;최종 박스 출력()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-12" vertex="1">
           <mxGeometry y="156" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-0" target="BfTfpMbQ1nF5UIR1eAzd-13">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-0" target="BfTfpMbQ1nF5UIR1eAzd-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-0" value="연결된 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -46,7 +46,7 @@
         <mxCell id="ON9PcQcA4ECol6lR16BE-3" value="동서남북 1 탐색()&#xa;방문 여부 확인하기()&#xa;모임의 번호로 값 변환()&#xa;개수 1 증가()&#xa;&#xa;개수를 담을 배열에 개수 저장하기()&#xa;모임 번호 1 증가()&#xa;개수 초기화()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-0">
           <mxGeometry y="148" width="200" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-16" target="BfTfpMbQ1nF5UIR1eAzd-13">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-16" target="BfTfpMbQ1nF5UIR1eAzd-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-16" value="최종 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -76,10 +76,10 @@
             <mxPoint x="-3130" y="643.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-3" target="ON9PcQcA4ECol6lR16BE-17">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;endArrow=open;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-3" target="ON9PcQcA4ECol6lR16BE-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-58" target="BfTfpMbQ1nF5UIR1eAzd-12">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;endArrow=open;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-58" target="BfTfpMbQ1nF5UIR1eAzd-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1845" y="390" />
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-58" target="BfTfpMbQ1nF5UIR1eAzd-5">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-58" target="BfTfpMbQ1nF5UIR1eAzd-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-58" value="랜덤 흑백 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -103,7 +103,7 @@
         <mxCell id="ON9PcQcA4ECol6lR16BE-61" value="사용자에게 값 입력받기()&#xa;입력 값으로 배열 생성()&#xa;난수 생성()&#xa;0은 백색 1은 흑색 박스 출력()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-58">
           <mxGeometry y="128" width="180" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.015;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-63" target="ON9PcQcA4ECol6lR16BE-59">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.015;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-63" target="ON9PcQcA4ECol6lR16BE-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-63" value="박스 출력" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -118,7 +118,7 @@
         <mxCell id="ON9PcQcA4ECol6lR16BE-66" value="0은 백색 1은 흑색 박스 출력()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-63">
           <mxGeometry y="60" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-68" target="ON9PcQcA4ECol6lR16BE-61">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-68" target="ON9PcQcA4ECol6lR16BE-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-68" value="난수 생성" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -133,7 +133,7 @@
         <mxCell id="ON9PcQcA4ECol6lR16BE-71" value="0또는 1 난수 배열에 저장()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-68">
           <mxGeometry y="88" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-73" target="ON9PcQcA4ECol6lR16BE-61">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-73" target="ON9PcQcA4ECol6lR16BE-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-73" value="배열 생성" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -160,7 +160,7 @@
         <mxCell id="ON9PcQcA4ECol6lR16BE-80" value="사용자에게 값 입력받기()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-77">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ON9PcQcA4ECol6lR16BE-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-77" target="ON9PcQcA4ECol6lR16BE-59">
+        <mxCell id="ON9PcQcA4ECol6lR16BE-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-77" target="ON9PcQcA4ECol6lR16BE-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-78" target="ON9PcQcA4ECol6lR16BE-74">
