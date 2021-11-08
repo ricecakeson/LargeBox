@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T02:03:08.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="E1Sfe9LSBNV8zbNKDOEQ" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T02:10:30.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IWv6JoPlZ_3m2uYFUmSO" version="15.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3758" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4705" dy="2350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-0" value="랜덤 흑백 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1030" y="340" width="180" height="200" as="geometry" />
+          <mxGeometry x="-2060" y="450" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-1" value="난수 저장 배열[][] : int&#xa;난수:int&#xa;입력값1: int&#xa;입력값2: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-0" vertex="1">
           <mxGeometry y="26" width="180" height="94" as="geometry" />
@@ -19,8 +19,8 @@
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-3" value="사용자에게 값 입력받기()&#xa;입력 값으로 배열 생성()&#xa;난수 생성()&#xa;0은 백색 1은 흑색 박스 출력()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-0" vertex="1">
           <mxGeometry y="128" width="180" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="BfTfpMbQ1nF5UIR1eAzd-4" value="Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1050" y="-150" width="250" height="290" as="geometry" />
+        <mxCell id="BfTfpMbQ1nF5UIR1eAzd-4" value="가장 큰 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1580" y="-150" width="250" height="290" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-5" value="입력값1: int&#xa;입력값2: int&#xa;난수 저장 배열[][]: int&#xa;방문 여부 확인 배열[][]: boolean&#xa;모임의 번호: int&#xa;개수를 담을 배열[]: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-4" vertex="1">
           <mxGeometry y="26" width="250" height="134" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry y="168" width="250" height="122" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-12" value="가장 많은 흑색 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="190" width="180" height="206" as="geometry" />
+          <mxGeometry x="-930" y="190" width="180" height="206" as="geometry" />
         </mxCell>
         <mxCell id="BfTfpMbQ1nF5UIR1eAzd-13" value="개수를 담을 배열[]:int&#xa;방문 여부 확인 배열[][]: boolean&#xa;모임의 번호: int&#xa;최대 개수 모임번호: int&#xa;개수: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BfTfpMbQ1nF5UIR1eAzd-12" vertex="1">
           <mxGeometry y="26" width="180" height="122" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-0" value="연결된 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="454" width="200" height="280" as="geometry" />
+          <mxGeometry x="-1110" y="454" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-1" value="난수 저장 배열[][]:int&#xa;방문 여부 확인 배열[][]: boolean&#xa;모임의 번호: int&#xa;개수를 담을 배열[]:int&#xa;개수: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-0">
           <mxGeometry y="26" width="200" height="114" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-4" value="박스 출력" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-730" y="604" width="170" height="86" as="geometry" />
+          <mxGeometry x="-1760" y="714" width="170" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-5" value="난수 저장 배열[][]: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-4">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-8" value="난수 생성" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-940" y="590" width="160" height="114" as="geometry" />
+          <mxGeometry x="-1970" y="700" width="160" height="114" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-9" value="난수 저장 배열[][]: int&#xa;난수 : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-8">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-12" value="배열 생성" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1110" y="590" width="140" height="114" as="geometry" />
+          <mxGeometry x="-2140" y="700" width="140" height="114" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-13" value="난수 저장 배열[][] : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-12">
           <mxGeometry y="26" width="140" height="54" as="geometry" />
@@ -107,7 +107,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-16" value="최종 박스" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="500" width="170" height="240" as="geometry" />
+          <mxGeometry x="-780" y="500" width="170" height="240" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-17" value="난수 저장 배열[][]: int&#xa;개수를 담을 배열[]: int&#xa;최대 개수 모임번호: int&#xa;방문 여부 배열[][]: int&#xa;개수: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-16">
           <mxGeometry y="26" width="170" height="84" as="geometry" />
@@ -119,10 +119,10 @@
           <mxGeometry y="118" width="170" height="122" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-29" value="&lt;font style=&quot;font-size: 12px&quot;&gt;동서남북 1 탐색은 배열을 순차적으로 탐색&lt;br&gt;개수는 0 모임은 1로 시작&lt;br&gt;&lt;br&gt;1. 난수 저장 배열에 값이 1 임과 동시에 방문한적이 없을경우&lt;br&gt;&lt;br&gt;2. 해당 배열의 값을 모임의 번호 값으로 바꾸고&lt;br&gt;&lt;br&gt;3. 해당 배열의 방문 여부 확인 배열로 방문했음 설정&lt;br&gt;&lt;br&gt;4. 개수를 1 증가 시킨다&lt;br&gt;&lt;br&gt;5. 해당 배열의 위치에서 동서남북으로 1이 존재할 경우&lt;br&gt;&lt;br&gt;6. 존재하는 배열로부터 1번 과정을 다시 진행한다&lt;br&gt;&lt;br&gt;위의 과정이 끝났을 때 개수가 &lt;br&gt;1. 0 인 경우 해당 배열의 다음 배열부터 탐색을 진행한다&lt;br&gt;&lt;br&gt;2. 0이 아닌 경우 개수를 저장, 모임의 번호를 1 증가 시킨다&lt;br&gt;그 후 개수를 0으로 초기화, 다음 배열부터 탐색을 진행한다&lt;br&gt;&lt;br&gt;위의 과정은 배열의 마지막 까지 진행된다.&lt;br&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-460" y="440" width="330" height="340" as="geometry" />
+          <mxGeometry x="-1480" y="440" width="330" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-39" value="스캔" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1300" y="595" width="160" height="104" as="geometry" />
+          <mxGeometry x="-2330" y="705" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-40" value="입력값1: int&#xa;입력값2: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ON9PcQcA4ECol6lR16BE-39">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -140,12 +140,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-45" value="&lt;font style=&quot;font-size: 12px&quot;&gt;개수를 담을 배열의 값 비교는&lt;br&gt;해당 배열의 값 들 중 가장 큰 값의 위치를 찾아내는 작업&lt;br&gt;&lt;br&gt;배열의 0의 위치에는 모임의 번호가 1인 연결된 박스의 개수&lt;br&gt;배열의 1의 위치에는 모임의 번호가 2인 연결된 박스의 개수&lt;br&gt;배열의 n의 위치에는 모임의 번호가 n+1인 연결된 박스의 개수&lt;br&gt;&lt;br&gt;가장 큰 값의 위치를 찾아내면 해당 배열의 모임의 번호를&lt;br&gt;&amp;nbsp;최대 개수 모임번호 a 라고 가정&lt;br&gt;&lt;br&gt;최종 박스 출력에서는&lt;br&gt;위의 작업을 통해 알아낸 위치의 모임의 번호를 사용&lt;br&gt;&lt;br&gt;1. 동서남북 1 찾기가 끝난 난수 저장 배열의 값을 확인&lt;br&gt;2.&amp;nbsp; a와 비교해 값이 같은 배열은 모두&amp;nbsp;&lt;span&gt;▣ 를 출력&lt;br&gt;&lt;/span&gt;3. 그 외 배열들은 방문 여부 배열을 사용하여 흑백 박스 출력&lt;br&gt;3-1. 방문을 한 곳은 흑색 박스&lt;br&gt;3-2. 방문을 하지 않은 곳은 백색 박스&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="454" width="340" height="340" as="geometry" />
+          <mxGeometry x="-550" y="454" width="340" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;endArrow=none;endFill=0;dashed=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-19" target="ON9PcQcA4ECol6lR16BE-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-170" y="723.9999999999998" as="sourcePoint" />
-            <mxPoint x="-110" y="633.9999999999998" as="targetPoint" />
+            <mxPoint x="-1190" y="723.9999999999998" as="sourcePoint" />
+            <mxPoint x="-1130" y="633.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ON9PcQcA4ECol6lR16BE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON9PcQcA4ECol6lR16BE-40" target="ON9PcQcA4ECol6lR16BE-13">
